@@ -5,6 +5,6 @@ gem 'sinatra'
 group :development do
   gem 'capistrano'
   gem 'capistrano-bundler'
-  gem 'capistrano-rvm'
+  gem 'capistrano-rbenv', '~> 2.0'
   gem 'thin'
 end
